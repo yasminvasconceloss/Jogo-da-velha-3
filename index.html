@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Jogo da Velha - Yasmin:) </title>
+	<style>
+		body {
+			font: normal 16px Garamond
+		}
+		h1 {
+			text-align: center;
+		}
+	</style>
+  </head>
+  <body>
+	  <h1>Jogo da Velha</h1>
+	<img src="https://media2.giphy.com/media/Buw2nDmKXU6tXlFsWO/giphy.gif?cid=ecf05e472g5lawoingie4vdhht304mcrlnsna51ts9fsb3rb&rid=giphy.gif&ct=g.gif" id="GifSapo" onclick="">
+    <div class="board" data-board>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div> 
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winning-message" data-winning-message>
+      <p class="winning-message-text" data-winning-message-text>X Venceu!</p>
+      <button class="winning-message-button" data-restart-button>
+        Reiniciar!
+      </button>
+    </div>
+    <input type="button" value="Reiniciar" id="reiniciar"">
+    <script src="./scripts.js"></script>
+		
+  </body>
+</html>
